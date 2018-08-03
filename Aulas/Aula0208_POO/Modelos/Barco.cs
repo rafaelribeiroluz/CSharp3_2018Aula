@@ -2,19 +2,19 @@
 
 namespace Aula0208_POO.Modelos
 {
-    class Moto : Veiculo, IMotorizado
+    class Barco : Veiculo, IMotorizado
     {
         public int Velocidade { get; set; }
         public void Acelerar()
         {
-            Console.WriteLine("Moto: Acelerando...");
-            Velocidade += 10;
+            Console.WriteLine("Barco: Acelerando...");
+            Velocidade += 8;
         }
 
         public void Frenar()
         {
-            Console.WriteLine("Moto: Pisando...");
-            Velocidade -= 7;
+            Console.WriteLine("Barco: Frenando...");
+            Velocidade -= 6;
         }
     }
 }
