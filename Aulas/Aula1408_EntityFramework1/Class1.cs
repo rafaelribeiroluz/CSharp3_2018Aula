@@ -11,6 +11,10 @@ namespace Aula1408_EntityFramework1
      * 
      * Instalando Entity Framework
      * 
+     * 
+     * Criando base (Abordagem: ModelFirst)
+     * 
+     * 
      */
 
     public class Class1
