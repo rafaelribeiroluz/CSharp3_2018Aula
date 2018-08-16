@@ -26,6 +26,6 @@ namespace Aula1408_EntityFramework1
         }
     
         public virtual DbSet<Cliente> Clientes { get; set; }
-        public virtual DbSet<Endereco> EnderecoSet { get; set; }
+        public virtual DbSet<Endereco> Enderecos { get; set; }
     }
-}
+}   

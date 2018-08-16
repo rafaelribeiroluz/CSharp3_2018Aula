@@ -51,10 +51,10 @@
       <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="MeuDB" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
         <EntityContainer Name="MeuDBContainer" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Clientes" EntityType="MeuDB.Cliente" />
-          <EntitySet Name="EnderecoSet" EntityType="MeuDB.Endereco" />
+          <EntitySet Name="Enderecos" EntityType="MeuDB.Endereco" />
           <AssociationSet Name="ClienteEndereco" Association="MeuDB.ClienteEndereco">
             <End Role="Cliente" EntitySet="Clientes" />
-            <End Role="Endereco" EntitySet="EnderecoSet" />
+            <End Role="Endereco" EntitySet="Enderecos" />
           </AssociationSet>
         </EntityContainer>
         <EntityType Name="Cliente">
@@ -107,7 +107,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="EnderecoSet">
+    <EntitySetMapping Name="Enderecos">
       <EntityTypeMapping TypeName="IsTypeOf(MeuDB.Endereco)">
         <MappingFragment StoreEntitySet="EnderecoSet">
           <ScalarProperty Name="Id" ColumnName="Id" />
