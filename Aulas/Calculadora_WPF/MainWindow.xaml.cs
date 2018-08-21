@@ -21,6 +21,7 @@ namespace Calculadora_WPF
         private void btnZero_Click(object sender, RoutedEventArgs e)
         {
 
+
             lblCalculo.Content += "0";
         }
 
