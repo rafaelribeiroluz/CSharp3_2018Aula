@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula3107_Console", "Aula3107_Console\Aula3107_Console.csproj", "{1FE5E5A4-431E-4C4D-9199-8E93D0E5E395}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula1408_EntityFramework1", "Aula1408_EntityFramework1\Aula1408_EntityFramework1.csproj", "{D6C80A15-D115-497B-B6B5-436C19DD832A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula1608_EFDatabaseFirst", "Aula1608_EFDatabaseFirst\Aula1608_EFDatabaseFirst.csproj", "{B4FB9D4C-3DA5-49BF-A590-6013AA316700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula2108_CodeFirst", "Aula2108_CodeFirst\Aula2108_CodeFirst.csproj", "{D2D2177C-38AD-41A4-B705-499F4460FD1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B4FB9D4C-3DA5-49BF-A590-6013AA316700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4FB9D4C-3DA5-49BF-A590-6013AA316700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4FB9D4C-3DA5-49BF-A590-6013AA316700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D2177C-38AD-41A4-B705-499F4460FD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D2177C-38AD-41A4-B705-499F4460FD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D2177C-38AD-41A4-B705-499F4460FD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D2177C-38AD-41A4-B705-499F4460FD1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
